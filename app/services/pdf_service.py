@@ -8,4 +8,4 @@ def mvr_analizer(file: str):
     page = reader.pages[0]
     text = page.extract_text()
 
-    print(text)
+    return text
